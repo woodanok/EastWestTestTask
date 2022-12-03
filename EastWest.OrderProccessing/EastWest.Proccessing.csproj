@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\wdano\source\repos\TestTasks\EastWestTestTask\EastWest.Proccessing\OrderProccessing.cs" Link="OrderProccessing.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="NLog" Version="5.1.0" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EastWest.BLL\EastWest.BLL.csproj" />
+    <ProjectReference Include="..\EastWest.Infrastructure\EastWest.Infrastructure.csproj" />
+    <ProjectReference Include="..\EastWest.Utils\EastWest.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
